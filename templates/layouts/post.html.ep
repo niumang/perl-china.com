@@ -1,0 +1,366 @@
+<div class="container"><div class="row">
+	<div class="span9">
+	<div class="content">
+	<ul class="breadcrumb">
+		<li>
+			<a href="/">多说开发者中心</a> <span class="divider">&gt;</span>
+		</li>
+		<li class="active"> <a href="/discussion">讨论区</a></li>
+	</ul>
+	
+	<div class="inner">
+		<a class="btn btn-success" href="/discussion/new-thread">发帖</a>
+	</div>
+	
+	
+		
+<ul class="nav nav-pills categories-nav">
+
+	<li class="active"><a href="/discussion" title="欢迎你的意见反馈">全部</a></li>
+
+	<li><a href="/user-interface" title="评论框界面功能">评论框界面功能</a></li>
+
+	<li><a href="/wordpress-plugin" title="Wordpress插件的使用帮助、意见反馈">Wordpress插件专区</a></li>
+
+	<li><a href="/dedecms-plugin" title="DedeCMS插件的使用帮助、意见反馈">DedeCMS插件专区</a></li>
+
+	<li><a href="/emlog-plugin" title="">Emlog专区</a></li>
+
+</ul>
+		<ul class="thread-list">
+			<li>
+	<a class="avatar avatar-50" rel="author" href="/user/4037063" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/F7A2A30BA2FE92BC3801D76F61F15083/100" alt="霜之哀伤"></a>
+	<h4 class="thread-title"><a href="/threads/5270ba2e0d7cd509180005af">后台管理员可以添加吗</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/4037063" target="_blank">霜之哀伤</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月30日 15:50:06" datetime="Wed Oct 30 2013 15:50:06 GMT+0800 (CST)">3小时前</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5270ba2e0d7cd509180005af">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/2820997" target="_blank"><img src="http://ds.cdncache.org/avatar-50/997/56304.jpg" alt="NovaQR"></a>
+	<h4 class="thread-title"><a href="/threads/52706529be7ddeed410008a1">域名大小写问题，导致多说评论显示不同状态。求改进！</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/2820997" target="_blank">NovaQR</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月30日 09:47:21" datetime="Wed Oct 30 2013 09:47:21 GMT+0800 (CST)">9小时前</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="52706529be7ddeed410008a1">暂无评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3504593" target="_blank"><img src="http://app.qlogo.cn/mbloghead/fd7cb38fc088a573f85a/50" alt="爱生活_爱垃登"></a>
+	<h4 class="thread-title"><a href="/threads/526fc4132170fdd726000085">希望增加功能</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3504593" target="_blank">爱生活_爱垃登</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月29日 22:20:03" datetime="Tue Oct 29 2013 22:20:03 GMT+0800 (CST)">20小时前</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526fc4132170fdd726000085">暂无评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/1431782" target="_blank"><img src="http://ds.cdncache.org/avatar-50/782/18062.jpg" alt="ROSI"></a>
+	<h4 class="thread-title"><a href="/threads/526e4e513728fb272500017f">如何自定义垃圾评论过滤的关键字?</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/1431782" target="_blank">ROSI</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月28日 19:45:21" datetime="Mon Oct 28 2013 19:45:21 GMT+0800 (CST)">10月28日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526e4e513728fb272500017f">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/666436" target="_blank"><img src="http://tp4.sinaimg.cn/1405064547/50/5606293874/1" alt="咆哮de企鹅"></a>
+	<h4 class="thread-title"><a href="/threads/526e10ec63b0830c620002d9">[wordpress] 无需点击喜欢可直接分享的分享按钮</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/666436" target="_blank">咆哮de企鹅</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月28日 15:23:24" datetime="Mon Oct 28 2013 15:23:24 GMT+0800 (CST)">10月28日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526e10ec63b0830c620002d9">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/1099384" target="_blank"><img src="http://app.qlogo.cn/mbloghead/ef00ae7be8b76d2bacc6/50" alt="彼岸"></a>
+	<h4 class="thread-title"><a href="/threads/526d1c379b2accf177000447">通知提醒如果有微信提醒多好</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/1099384" target="_blank">彼岸</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 21:59:19" datetime="Sun Oct 27 2013 21:59:19 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526d1c379b2accf177000447">2条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3806887" target="_blank"><img src="http://app.qlogo.cn/mbloghead/90d1a5bdccf3b7cac894/50" alt="jeno"></a>
+	<h4 class="thread-title"><a href="/threads/526cd7062d4904e42e00006f">评论实时同步评论回本地数据库</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3806887" target="_blank">jeno</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 17:04:06" datetime="Sun Oct 27 2013 17:04:06 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526cd7062d4904e42e00006f">2条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/1426338" target="_blank"><img src="http://gravatar.duoshuo.com/avatar/bae7710d5271fe63d4dfcf86965afbda?s=50" alt="老虎"></a>
+	<h4 class="thread-title"><a href="/threads/526cc7fb57325ecf680005ee">能否开发wordpress留言后自动同步到多说功能？</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/1426338" target="_blank">老虎</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 15:59:55" datetime="Sun Oct 27 2013 15:59:55 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526cc7fb57325ecf680005ee">3条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/1426338" target="_blank"><img src="http://gravatar.duoshuo.com/avatar/bae7710d5271fe63d4dfcf86965afbda?s=50" alt="老虎"></a>
+	<h4 class="thread-title"><a href="/threads/526cc2a9d917926656000266">能否体现评论者的ip国家、浏览器和操作系统</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/1426338" target="_blank">老虎</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 15:37:13" datetime="Sun Oct 27 2013 15:37:13 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526cc2a9d917926656000266">2条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/1433389" target="_blank"><img src="http://tp1.sinaimg.cn/1660564500/50/40018393332/1" alt="思考者日记网-束洋洋个人博客"></a>
+	<h4 class="thread-title"><a href="/threads/526c8ec1dfaecb9f4500004a">多说最近评论与访客宽度过长</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/1433389" target="_blank">思考者日记网-束洋洋个人博客</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 11:55:45" datetime="Sun Oct 27 2013 11:55:45 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526c8ec1dfaecb9f4500004a">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/2995481" target="_blank"><img src="http://qzapp.qlogo.cn/qzapp/100229475/4156E1A004C939F4A899D8A8840491ED/50" alt="tianjun"></a>
+	<h4 class="thread-title"><a href="/threads/526c898e1a4357d5320001f8">评论不能导入？？？</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/2995481" target="_blank">tianjun</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 11:33:34" datetime="Sun Oct 27 2013 11:33:34 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526c898e1a4357d5320001f8">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3768056" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/ADA2858CE86C63C7B5DDA0CAAFBA339C/100" alt="SERAPHIM"></a>
+	<h4 class="thread-title"><a href="/threads/526c7e52fb43e7fc0f000318">{Bad Request}</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3768056" target="_blank">SERAPHIM</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 10:45:38" datetime="Sun Oct 27 2013 10:45:38 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526c7e52fb43e7fc0f000318">3条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/544943" target="_blank"><img src="http://tp4.sinaimg.cn/1647540307/50/22818879910/1" alt="我在你的左边"></a>
+	<h4 class="thread-title"><a href="/threads/526c6f4c6843462c67000289">最近好像新浪微博转发的数据没有了？</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/544943" target="_blank">我在你的左边</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 09:41:32" datetime="Sun Oct 27 2013 09:41:32 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526c6f4c6843462c67000289">6条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/966462" target="_blank"><img src="http://tp1.sinaimg.cn/1456816904/50/1281595832/1" alt="琴友网-肥仔"></a>
+	<h4 class="thread-title"><a href="/threads/526c63e07c401e614e00010f">多说的默认头像无法上传</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/966462" target="_blank">琴友网-肥仔</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月27日 08:52:48" datetime="Sun Oct 27 2013 08:52:48 GMT+0800 (CST)">10月27日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526c63e07c401e614e00010f">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/733939" target="_blank"><img src="http://app.qlogo.cn/mbloghead/8e0b0bb790bb02bccd52/50" alt="字母"></a>
+	<h4 class="thread-title"><a href="/threads/526bc7884654775e0e00014a">怎么把多说的评论同步到帝国本地数据库啊</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/733939" target="_blank">字母</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月26日 21:45:44" datetime="Sat Oct 26 2013 21:45:44 GMT+0800 (CST)">10月26日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526bc7884654775e0e00014a">2条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/1806735" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/5CA8AEDBD406D93A6D6D00B062C9362E/100" alt="潜伏者"></a>
+	<h4 class="thread-title"><a href="/threads/526a5c0e2ffc310c39000826">别人第一次评论我的网站就有邮件提醒</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/1806735" target="_blank">潜伏者</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月25日 19:54:54" datetime="Fri Oct 25 2013 19:54:54 GMT+0800 (CST)">10月25日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526a5c0e2ffc310c39000826">4条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3813541" target="_blank"><img src="http://app.qlogo.cn/mbloghead/49c7bd18c41a86e3da22/50" alt="CD丶木木"></a>
+	<h4 class="thread-title"><a href="/threads/526a2264c9fc1df566000303">关于游客用户点击发布以后弹出来的对话框</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3813541" target="_blank">CD丶木木</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月25日 15:48:52" datetime="Fri Oct 25 2013 15:48:52 GMT+0800 (CST)">10月25日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526a2264c9fc1df566000303">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/4008249" target="_blank"><img src="http://app.qlogo.cn/mbloghead/94a2b56442b955f9f98a/50" alt="铁骨柔情"></a>
+	<h4 class="thread-title"><a href="/threads/5269f81dde3a9e9a680002d1">你好，关于微信分享</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/4008249" target="_blank">铁骨柔情</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月25日 12:48:29" datetime="Fri Oct 25 2013 12:48:29 GMT+0800 (CST)">10月25日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5269f81dde3a9e9a680002d1">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/585442" target="_blank"><img src="http://app.qlogo.cn/mbloghead/5d88843c8e4342304132/50" alt="孟朋朋"></a>
+	<h4 class="thread-title"><a href="/threads/52691e8ebe06ed73340000cc">绑定新浪和腾讯微博后只同步新浪微博</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/585442" target="_blank">孟朋朋</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 21:20:14" datetime="Thu Oct 24 2013 21:20:14 GMT+0800 (CST)">10月24日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="52691e8ebe06ed73340000cc">5条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3605810" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/8439698E6C4C47B762696602F0202C8B/100" alt="Junior Ivy维护组"></a>
+	<h4 class="thread-title"><a href="/threads/5268ea8c691683006c000042">不能给游客开放喜欢功能吗</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3605810" target="_blank">Junior Ivy维护组</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 17:38:20" datetime="Thu Oct 24 2013 17:38:20 GMT+0800 (CST)">10月24日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5268ea8c691683006c000042">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3979707" target="_blank"><img src="http://app.qlogo.cn/mbloghead/0f1afc638836ac0bf486/50" alt="清新搭配"></a>
+	<h4 class="thread-title"><a href="/threads/5268c5935a16a49f0600005b">有木有多说视屏应用呀？</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3979707" target="_blank">清新搭配</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 15:00:35" datetime="Thu Oct 24 2013 15:00:35 GMT+0800 (CST)">10月24日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5268c5935a16a49f0600005b">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3998262" target="_blank"><img src="http://tp1.sinaimg.cn/2312845280/50/22822086942/1" alt="创意吧cy8"></a>
+	<h4 class="thread-title"><a href="/threads/5268bb39f25d433f63000a2b">安装完dede插件后本地管理出现不了登陆界面</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3998262" target="_blank">创意吧cy8</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 14:16:25" datetime="Thu Oct 24 2013 14:16:25 GMT+0800 (CST)">10月24日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5268bb39f25d433f63000a2b">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3998262" target="_blank"><img src="http://tp1.sinaimg.cn/2312845280/50/22822086942/1" alt="创意吧cy8"></a>
+	<h4 class="thread-title"><a href="/threads/5268ba66f25d433f630008a7">多说本地设置同步不到我的用户名</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3998262" target="_blank">创意吧cy8</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 14:12:54" datetime="Thu Oct 24 2013 14:12:54 GMT+0800 (CST)">10月24日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5268ba66f25d433f630008a7">2条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3872625" target="_blank"><img src="http://app.qlogo.cn/mbloghead/3d9467b958d30438b0e2/50" alt="盛宇"></a>
+	<h4 class="thread-title"><a href="/threads/5268771cf4f7d477410000fb">能否动态获取文章的被喜欢数。</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3872625" target="_blank">盛宇</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 09:25:48" datetime="Thu Oct 24 2013 09:25:48 GMT+0800 (CST)">10月24日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5268771cf4f7d477410000fb">2条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3482546" target="_blank"><img src="http://tp1.sinaimg.cn/3867173708/50/40037129279/1" alt="囧3千"></a>
+	<h4 class="thread-title"><a href="/threads/526870262347c194300001d9">为什么所有游客用多说账号登录后都变成站长的账号了？？</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3482546" target="_blank">囧3千</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 08:56:06" datetime="Thu Oct 24 2013 08:56:06 GMT+0800 (CST)">10月24日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526870262347c194300001d9">4条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3817618" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/1D213951C86BC69A52A69B22AA4878AB/100" alt="影像梦FilmMeng"></a>
+	<h4 class="thread-title"><a href="/threads/5267ddda2f57fab736000e6e">怎么把绑定的社交账号授权给其他编辑和作者？共用同一个官方社交账号？</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3817618" target="_blank">影像梦FilmMeng</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月23日 22:31:54" datetime="Wed Oct 23 2013 22:31:54 GMT+0800 (CST)">10月23日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5267ddda2f57fab736000e6e">3条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3661916" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/F03DF88173779610F670D976DC2C5F92/100" alt="http://px.wangxiao.so"></a>
+	<h4 class="thread-title"><a href="/threads/5267bb88788763b85f00028c">自己开发的教育培训网站，能用多说吗？</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3661916" target="_blank">http://px.wangxiao.so</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月23日 20:05:28" datetime="Wed Oct 23 2013 20:05:28 GMT+0800 (CST)">10月23日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5267bb88788763b85f00028c">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3694215" target="_blank"><img src="http://himg.bdimg.com/sys/portrait/item/7f6f424c41434b4359598a34.jpg" alt="BLACKCYY"></a>
+	<h4 class="thread-title"><a href="/threads/52677d30c5371c6e37000447">飞飞cms中如何添加多说</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3694215" target="_blank">BLACKCYY</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月23日 15:39:28" datetime="Wed Oct 23 2013 15:39:28 GMT+0800 (CST)">10月23日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="52677d30c5371c6e37000447">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/286147" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/DD1B98FF8B4185C0D9BB455A5280E3B3/100" alt="朱铁成"></a>
+	<h4 class="thread-title"><a href="/threads/526778faea3e27d930000039">默认头像</a></h4>
+	<div class="thread-meta">
+		<span class="label label-success">已回复</span>&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/286147" target="_blank">朱铁成</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月23日 15:21:30" datetime="Wed Oct 23 2013 15:21:30 GMT+0800 (CST)">10月23日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526778faea3e27d930000039">2条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3459167" target="_blank"><img src="http://app.qlogo.cn/mbloghead/318f3660647b91f2caa8/50" alt="叶子"></a>
+	<h4 class="thread-title"><a href="/threads/526740927af25c6b21000145">网站域名换了，留言不会同步到新的网站上吗？</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3459167" target="_blank">叶子</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月23日 11:20:50" datetime="Wed Oct 23 2013 11:20:50 GMT+0800 (CST)">10月23日</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="526740927af25c6b21000145">暂无评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+
+		</ul>
+		
+
+		<div class="pagination pagination-small">
+			<ul>
+			
+			<li class="active"><a href="?page=1">1</a> </li><li><a href="?page=2">2</a> </li><li><a href="?page=3">3</a> </li><li><a href="?page=4">4</a> </li><li><a href="?page=5">5</a> </li><li><a href="?page=6">6</a> </li><li><a href="?page=7">7</a> </li><li><a href="?page=8">8</a> </li><li><a href="?page=9">9</a> </li><li><a href="?page=10">10</a> </li>
+			<li><a href="?page=61">&gt;</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<aside class="span3 sidebar">
+		
+<section class="visitor box">
+	<div class="top">
+		<div class="pull-left"><a class="avatar avatar-50" rel="author" href="/user/204067" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/218ACA0DD0DDF00FAE3F7372E1D8C919/100" alt="舌尖上的牛氓"></a></div>
+		<h4 class="name">舌尖上的牛氓</h4>
+		<i class="icon-cog"></i><a href="http://duoshuo.com/settings/">设置</a>
+	</div>
+	<ul class="stats">
+		<li class="left"><span class="stats-number">0</span><span class="stats-desc">帖子</span></li>
+		<li class="left"><span class="stats-number">56</span><span class="stats-desc">文章</span></li>
+		<li class="center"><span class="stats-number">51</span><span class="stats-desc">评论</span></li>
+	</ul>
+	<div class="clearfix"></div>
+</section>
+
+
+		<section class="recent box">
+	<h4>最新帖子</h4>
+	<ul>
+	
+		<li><a href="/threads/5270ba2e0d7cd509180005af">
+		 后台管理员可以添加吗</a></li>
+	
+		<li><a href="/threads/52706529be7ddeed410008a1">
+		 域名大小写问题，导致多说评论显示不同状态。求改进！</a></li>
+	
+		<li><a href="/threads/526fc4132170fdd726000085">
+		 希望增加功能</a></li>
+	
+		<li><a href="/threads/526e4e513728fb272500017f">
+		<span class="label label-success">已回复</span> 如何自定义垃圾评论过滤的关键字?</a></li>
+	
+		<li><a href="/threads/526e10ec63b0830c620002d9">
+		<span class="label label-success">已回复</span> [wordpress] 无需点击喜欢可直接分享的分享按钮</a></li>
+	
+		<li><a href="/threads/526d1c379b2accf177000447">
+		<span class="label label-success">已回复</span> 通知提醒如果有微信提醒多好</a></li>
+	
+		<li><a href="/threads/526cd7062d4904e42e00006f">
+		<span class="label label-success">已回复</span> 评论实时同步评论回本地数据库</a></li>
+	
+		<li><a href="/threads/526cc7fb57325ecf680005ee">
+		<span class="label label-success">已回复</span> 能否开发wordpress留言后自动同步到多说功能？</a></li>
+	
+		<li><a href="/threads/526cc2a9d917926656000266">
+		<span class="label label-success">已回复</span> 能否体现评论者的ip国家、浏览器和操作系统</a></li>
+	
+		<li><a href="/threads/526c8ec1dfaecb9f4500004a">
+		<span class="label label-success">已回复</span> 多说最近评论与访客宽度过长</a></li>
+	
+	</ul>
+</section>
+
+		<section class="download-widget box">
+	<h4>插件下载</h4>
+	<ul>
+		<li><a href="http://wordpress.org/extend/plugins/duoshuo/" target="_blank" rel="nofollow">多说 for WordPress 1.0</a></li>
+		<li><a href="/dedecms">多说 for DedeCMS(织梦) 0.3</a></li>
+		<li><a href="/joomla">多说 for Joomla! 0.1</a></li>
+		<li><a href="/emlog">多说 for emlog 0.2</a></li>
+		<li><a href="/mediawiki">多说 for MediaWiki 0.2</a></li>
+		<li><a href="http://app.rainbowsoft.org/view.asp?id=165" target="_blank">多说 for Z-blog</a></li>
+		<li><a href="/python-sdk">多说 for Python</a></li>
+		<li><a href="http://duoshuo.com/create-site">创建站点获取通用代码</a></li>
+	</ul>
+</section>
+
+		<section class="feed box">
+	<h4>订阅</h4>
+	<div class="inner">
+		<a href="http://dev.duoshuo.com/feed">通过RSS订阅</a>
+	</div>
+</section>
+
+</aside>
+<script type="text/javascript">
+$('.pagination ul li').each(function(){
+	$(this).text().replace(/^\s+|\s+$/g, '') == '1' ? $(this).addClass('active') : '';
+})
+</script>
+
+</div></div>

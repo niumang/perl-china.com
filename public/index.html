@@ -1,0 +1,800 @@
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>perl-china</title>
+  <!--link rel="shortcut icon" href="http://static.duoshuo.com/favicon.ico" type="image/x-icon"-->
+  <meta name="keywords" content="多说, 多说评论框, 多说评论系统, wordpress评论插件">
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://static.duoshuo.com/js/html5.js"></script>
+<![endif]-->
+  <link rel="alternate" type="application/rss+xml" title="多说开发者中心" href="http://dev.duoshuo.com/feed">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet/less" href="/css/style.less">
+  <link rel="stylesheet" href="/css/footer.css">
+  <script type="text/javascript" src="/js/less-1.3.0.min.js"></script><style type="text/css" media="screen" id="less:css-style">body {
+  color: #666;
+  padding-top: 60px;
+  background: url('http://static.duoshuo.com/images/tile-light.png');
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, "Microsoft YaHei", Arial, sans-serif;
+}
+.shadow {
+  box-shadow: rgba(200,200,20);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: rgba(200,200,20);
+  -khtml-box-shadow: rgba(200,200,200,1) 0 2px 18px;
+}
+.gradient {
+  background: -webkit-linear-gradient(#ffffff, #fafafa);
+  background: -moz-linear-gradient(#ffffff, #fafafa);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
+}
+.content {
+  background: #fff;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(200,200,20);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: rgba(200,200,20);
+  -khtml-box-shadow: rgba(200,200,200,1) 0 2px 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.content tbody tr img {
+  margin-left: 5px;
+}
+.content h4 {
+  font-size: 16px;
+  margin: 5px 0px;
+}
+.content .inner {
+  padding: 10px 12px;
+}
+.content p {
+  line-height: 1.5em;
+}
+.content code {
+  word-break: break-all;
+}
+.markdown-body h3 {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+#header {
+  box-shadow: rgba(200,200,20);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: rgba(200,200,20);
+  -khtml-box-shadow: rgba(200,200,200,1) 0 2px 18px;
+}
+ul li ul li {
+  margin: 5px 0px;
+}
+.box {
+  padding: 0;
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: rgba(200,200,20);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: rgba(200,200,20);
+  -khtml-box-shadow: rgba(200,200,200,1) 0 2px 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.box .box-header {
+  padding: 10px 12px;
+  margin-bottom: 5px;
+}
+.box .inner {
+  padding: 10px 12px;
+}
+aside .box h4 {
+  font-size: 16px;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #E2E2E2;
+}
+aside .box ul {
+  list-style: none;
+  margin: 0;
+}
+.pagination {
+  text-align: right;
+  padding: 12px;
+}
+.comments {
+  box-shadow: rgba(200,200,20);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: rgba(200,200,20);
+  -khtml-box-shadow: rgba(200,200,200,1) 0 2px 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin: 20px 0px;
+  padding: 20px;
+  background: #fff;
+}
+.form-wrapper .title {
+  height: 30px;
+  margin-bottom: 10px;
+  resize: none;
+}
+.form-wrapper #preview {
+  min-height: 230px;
+}
+.form-wrapper dt {
+  margin: 5px 0px 5px 5px;
+}
+.thread-list {
+  margin: 0px;
+}
+.thread-list li {
+  position: relative;
+  padding: 10px 8px 10px 80px;
+  border-bottom: 1px solid #E2E2E2;
+  list-style: none;
+  background: -webkit-linear-gradient(#ffffff, #fafafa);
+  background: -moz-linear-gradient(#ffffff, #fafafa);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
+}
+.thread-list li h3 {
+  margin-top: 0px;
+}
+.thread-list .avatar {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+}
+.thread-list .avatar img {
+  padding: 4px;
+  line-height: 1;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.thread-list .thread-pageview {
+  float: right;
+  margin-top: -30px;
+  font-weight: bold;
+}
+.thread-list .thread-title {
+  font-size: 16px;
+  margin: 5px 0;
+  line-height: 24px;
+}
+#cases h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+#cases a {
+  margin-top: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 122px;
+  height: 73px;
+  display: block;
+  float: left;
+  text-align: center;
+}
+#cases .category {
+  margin-bottom: 15px;
+  float: left;
+}
+#cases .category a img {
+  width: 120px;
+  border: 1px solid #CFCFCF;
+}
+#cases nobr {
+  text-decoration: none;
+  text-align: center;
+}
+#cases hr.soften {
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  border: 0 none;
+  margin: 20px 0;
+  clear: both;
+}
+article.thread {
+  border-bottom: 1px #CCC solid;
+  padding: 12px 12px 20px;
+}
+article.thread header {
+  padding-bottom: 15px;
+  padding-right: 66px;
+  position: relative;
+}
+article.thread header h3 {
+  margin: 0;
+}
+article.thread header .avatar {
+  top: 6px;
+  right: 0;
+  margin: 0;
+  position: absolute;
+}
+article.thread header .thread-meta {
+  font-size: 12px;
+}
+article.doc h3 {
+  margin-top: 0px;
+}
+.nav-list {
+  list-style: none;
+  margin-left: -15px;
+  font-weight: bold;
+}
+.nav-list li {
+  width: 230px;
+  margin: 5px 0px;
+}
+.nav-list li a.menu-item {
+  text-decoration: none;
+  color: #666;
+}
+.nav-list li ul {
+  margin-left: 15px;
+}
+.nav-list li ul li {
+  font-weight: normal;
+  width: 200px;
+  list-style: none;
+}
+.page-header {
+  padding: 10px 12px;
+  margin: 0;
+}
+.page-header h2 {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+header.page-header.with-author {
+  padding-right: 60px;
+  position: relative;
+}
+header.page-header.with-author a.avatar {
+  top: 20px;
+  right: 12px;
+  position: absolute;
+}
+header.page-header.no-author {
+  text-align: center;
+  padding: 16px 12px;
+}
+.sidebar {
+  margin-top: 15px;
+}
+.sidebar hr {
+  margin: 5px 0px;
+}
+.sidebar .visitor .top {
+  padding: 10px 12px;
+}
+.sidebar .visitor a.avatar {
+  margin-right: 10px;
+}
+.sidebar .visitor .name {
+  width: 130px;
+  padding: 0;
+  margin: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border: none;
+}
+.sidebar .visitor ul.stats {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .visitor ul.stats li {
+  padding: 6px 0;
+  float: left;
+  width: 33%;
+  list-style: none;
+  text-align: center;
+  border-right: 1px solid #E6E6E6;
+}
+.sidebar .visitor ul.stats li span {
+  display: block;
+}
+.sidebar .visitor ul.stats li:last-child {
+  border-right: 0;
+}
+.sidebar .visitor ul.stats .stats-number {
+  color: #444;
+  font-size: 24px;
+  line-height: 30px;
+  text-shadow: 0 1px 2px white;
+}
+.sidebar .login {
+  height: 140px;
+}
+.sidebar .recent ul li {
+  padding: 4px 10px;
+  line-height: 16px;
+  font-size: 12px;
+}
+.sidebar .download-widget ul li {
+  padding: 4px 10px;
+}
+.thread-meta {
+  font-size: 12px;
+  color: #999;
+  line-height: 24px;
+}
+.thread-meta .label {
+  margin-right: 5px;
+}
+.thread-title {
+  color: #999;
+}
+.breadcrumb {
+  margin-bottom: 10px;
+  border-color: #eee;
+}
+.breadcrumb .divider {
+  font-size: 10px;
+  font-weight: 800;
+}
+.categories-nav {
+  margin: 15px 0px 0px 0px;
+  padding: 0 12px;
+}
+.categories-nav > li > a {
+  padding: 6px;
+  margin-right: 4px;
+}
+.recent-threads {
+  border-top: 1px solid #CCC;
+  margin-bottom: 20px;
+}
+.recent-threads section {
+  margin-top: 15px;
+}
+.recent-threads section ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.recent-threads section h2 {
+  font-size: 18px;
+  font-weight: 750;
+}
+.recent-threads .threads li {
+  line-height: 1.5em;
+}
+.recent-threads .threads .title {
+  font-size: 14px;
+}
+.recent-threads .threads p {
+  font-size: 12px;
+  line-height: 15px;
+}
+.recent-threads .blogs .title {
+  line-height: 20px;
+}
+.recent-threads .blogs li {
+  line-height: 15px;
+  height: 50px;
+}
+.recent-threads .blogs li a {
+  font-size: 14px;
+}
+.recent-threads .blogs .date {
+  background: #E8E8E8;
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+  float: left;
+  line-height: 15px;
+  margin-right: 5px;
+}
+.recent-threads .blogs .date span {
+  display: block;
+}
+.recent-threads .blogs .date .month {
+  color: #999;
+  font-size: 13px;
+  font-weight: 600;
+}
+.recent-threads .blogs .date .day {
+  color: #777;
+  font-weight: bold;
+}
+.recent-threads .links h3 {
+  font-size: 16px;
+}
+.avatar-50 img {
+  width: 50px;
+  height: 50px;
+  max-width: none;
+}
+.plugin-download {
+  margin: 15px auto 10px;
+  text-align: center;
+}
+.plugin-download .btn-large {
+  display: block;
+  margin: 0px auto 5px;
+  cursor: pointer;
+  padding: 5px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  background: #48a9f6;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#48a9f6), to(#0e62c9));
+  background: -moz-linear-gradient(top, #48a9f6 0%, #0e62c9 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #48a9f6), color-stop(100%, #0e62c9));
+  background: -webkit-linear-gradient(top, #48a9f6 0%, #0e62c9 100%);
+  background: -o-linear-gradient(top, #48a9f6 0%, #0e62c9 100%);
+  background: -ms-linear-gradient(top, #48a9f6 0%, #0e62c9 100%);
+  background: linear-gradient(top, #48a9f6 0%, #0e62c9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48a9f6',endColorstr='#0e62c9',GradientType=0);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+  width: 90px;
+}
+.plugin-download .btn-large:hover {
+  background: #6fbbf8;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#6fbbf8), to(#1175ee));
+  background: -moz-linear-gradient(top, #6fbbf8 0%, #1175ee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6fbbf8), color-stop(100%, #1175ee));
+  background: -webkit-linear-gradient(top, #6fbbf8 0%, #1175ee 100%);
+  background: -o-linear-gradient(top, #6fbbf8 0%, #1175ee 100%);
+  background: -ms-linear-gradient(top, #6fbbf8 0%, #1175ee 100%);
+  background: linear-gradient(top, #6fbbf8 0%, #1175ee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fbbf8',endColorstr='#1175ee',GradientType=0);
+  color: #fff;
+  text-decoration: none;
+}
+.plugin-download .btn-large:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.plugin-download .btn-joomla {
+  font-size: 18px;
+  display: inline-block;
+  width: 120px;
+  padding: 15px;
+}
+.plugin-download .btn-orange {
+  background: #f6a948;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#f6a948), to(#c9620e));
+  background: -moz-linear-gradient(top, #f6a948 0%, #c9620e 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6a948), color-stop(100%, #c9620e));
+  background: -webkit-linear-gradient(top, #f6a948 0%, #c9620e 100%);
+  background: -o-linear-gradient(top, #f6a948 0%, #c9620e 100%);
+  background: -ms-linear-gradient(top, #f6a948 0%, #c9620e 100%);
+  background: linear-gradient(top, #f6a948 0%, #c9620e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6a948',endColorstr='#c9620e',GradientType=0);
+}
+.plugin-download .btn-orange:hover {
+  background: #f8bb6f;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#f8bb6f), to(#ee7511));
+  background: -moz-linear-gradient(top, #f8bb6f 0%, #ee7511 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8bb6f), color-stop(100%, #ee7511));
+  background: -webkit-linear-gradient(top, #f8bb6f 0%, #ee7511 100%);
+  background: -o-linear-gradient(top, #f8bb6f 0%, #ee7511 100%);
+  background: -ms-linear-gradient(top, #f8bb6f 0%, #ee7511 100%);
+  background: linear-gradient(top, #f8bb6f 0%, #ee7511 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8bb6f',endColorstr='#ee7511',GradientType=0);
+  color: #fff;
+  text-decoration: none;
+}
+.plugin-download .version {
+  margin: 0px auto;
+  color: #999999;
+}
+</style>
+  <script type="text/javascript" src="http://static.duoshuo.com/libs/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="http://static.duoshuo.com/js/common.js"></script>
+  <script type="text/javascript" src="/js/bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"official"};
+  </script>
+  <script type="text/javascript" src="http://static.duoshuo.com/embed.js"></script>
+<style type="text/css"></style><link type="text/css" rel="stylesheet" href="http://static.duoshuo.com/styles/embed.default.css?19128c28.css"><link type="text/css" rel="stylesheet" href="http://static.duoshuo.com/patches/wordpress/Function.css"><style type="text/css">#ds-smilies-tooltip ul.ds-smilies-tabs{
+margin-left:0px;
+}
+
+#sidebar .ds-avatar img {width: 30px;height: 30px;}
+
+
+#sidebar ul#ds-recent-comments li.ds-comment a{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: #222222;
+    padding: 0;
+}
+
+#ds-reset .ds-avatar img{
+max-width:none;
+}
+
+
+.ds-post-self xmp{
+word-wrap: break-word;
+}
+
+</style></head>
+<body>
+<header id="header" class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+            <span class="brand">最淫荡的社区，没有之一</span>
+			
+			<ul class="nav secondary-nav" style="float:right;">
+				<script language="javascript">
+					function g(formname)	{
+					if (formname.s[1].checked) {
+						formname.ct.value = "2097152";
+					}
+					else {
+						formname.ct.value = "0";
+					}
+					return true;
+					}
+				</script>
+				<form class="navbar-search pull-left" name="f1" onsubmit="return g(this)" action="http://www.baidu.com/baidu">
+					<input name="word" type="text" class="search-query" placeholder="百度站内搜索">
+					<a href="javascript:void(0)" onclick="document.f1[0].submit();"><i class="icon-search icon-white"></i></a>
+					<div class="hide">
+						<input name="tn" type="hidden" value="bds">
+						<input name="cl" type="hidden" value="3">
+						<input name="ct" type="hidden" value="2097152">
+						<input name="ie" type="hidden" value="utf-8">
+						<input name="si" type="hidden" value="duoshuo.com">
+						<input name="s" type="radio">
+						<input name="s" type="radio" checked="">
+					</div>
+				</form>
+				<li class="dropdown">
+					<a href="/blog">官方博客 <!-- b class="caret" --></a>
+					<!--
+					<ul class="dropdown-menu">
+						<!-- li class="divider"></li -->
+						<!-- li><a href="http://duoshuo.com/register-site/">添加新站点</a></li>
+					</ul>
+					-->
+				</li>
+				<li class="dropdown">
+					<a href="/discussion">讨论区  <b class="caret"></b></a>
+					<!-- <ul class="dropdown-menu">
+						<li><a href="/installation-help">分类一</a></li>
+						<li><a href="/feedback">分类二</a></li>
+						
+						<li class="divider"></li>
+						<li><a href="/threads/new">发帖</a></li>
+					</ul> -->
+				</li>
+				
+				<li class="dropdown">
+					<a href="/docs">开发文档 <b class="caret"></b></a>
+					<!-- <ul class="dropdown-menu">
+						<li><a href="/api-docs">API接口</a></li>
+						<li><a href="/widgets-docs">挂件用法</a></li>
+						<li><a href="/appearance-docs">外观样式</a></li>
+						<li class="divider"></li>
+						<li><a href="http://duoshuo.com/register-site/">添加新站点</a></li>
+					</ul> -->
+				</li>
+				
+				
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">舌尖上的牛氓<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					 	<li><a href="http://duoshuo.com/settings/" class="pushstate-link">个人资料</a></li>
+					 	<li><a href="http://duoshuo.com/settings/accounts/" class="pushstate-link">帐号绑定</a></li>
+					 	<li><a href="http://duoshuo.com/settings/notifications/" class="pushstate-link">通知提醒</a></li>
+						<li class="divider"></li>
+						<li><a href="http://duoshuo.com/logout/">登出</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="container"><div class="row">
+	<div class="span9">
+	<div class="content">
+	<ul class="breadcrumb">
+		<li>
+			<a href="/">perl-china</a> <span class="divider">&gt;</span>
+		</li>
+		<li class="active"> <a href="/discussion">讨论区</a></li>
+	</ul>
+	
+	<div class="inner">
+		<a class="btn btn-success" href="/discussion/new-thread">发帖</a>
+	</div>
+	
+	
+		
+<ul class="nav nav-pills categories-nav">
+
+	<li class="active"><a href="/discussion" title="欢迎你的意见反馈">全部</a></li>
+
+	<li><a href="/user-interface" title="评论框界面功能">Perl5</a></li>
+
+	<li><a href="/wordpress-plugin" title="Wordpress插件的使用帮助、意见反馈">Dancer</a></li>
+
+	<li><a href="/dedecms-plugin" title="DedeCMS插件的使用帮助、意见反馈">Moose</a></li>
+
+	<li><a href="/emlog-plugin" title="">DBI</a></li>
+
+</ul>
+
+
+
+		
+		
+		<ul class="thread-list">
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3998262" target="_blank"><img src="http://tp1.sinaimg.cn/2312845280/50/22822086942/1" alt="创意吧cy8"></a>
+	<h4 class="thread-title"><a href="/threads/5268ba66f25d433f630008a7">莫莫经常喷群里的新人怎么办</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3998262" target="_blank">舌尖上的牛氓</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 14:12:54" datetime="Thu Oct 24 2013 14:12:54 GMT+0800 (CST)">21分钟前</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5268ba66f25d433f630008a7">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3998262" target="_blank"><img src="http://tp1.sinaimg.cn/2312845280/50/22822086942/1" alt="创意吧cy8"></a>
+	<h4 class="thread-title"><a href="/threads/5268ba66f25d433f630008a7">年年是个叛徒</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3998262" target="_blank">舌尖上的牛氓</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 14:12:54" datetime="Thu Oct 24 2013 14:12:54 GMT+0800 (CST)">21分钟前</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5268ba66f25d433f630008a7">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+<li>
+	<a class="avatar avatar-50" rel="author" href="/user/3998262" target="_blank"><img src="http://tp1.sinaimg.cn/2312845280/50/22822086942/1" alt="创意吧cy8"></a>
+	<h4 class="thread-title"><a href="/threads/5268ba66f25d433f630008a7">Wilson是个二货！！！！</a></h4>
+	<div class="thread-meta">
+		&nbsp;&nbsp;•&nbsp;<a rel="author" href="/user/3998262" target="_blank">舌尖上的牛氓</a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="2013年10月24日 14:12:54" datetime="Thu Oct 24 2013 14:12:54 GMT+0800 (CST)">21分钟前</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="5268ba66f25d433f630008a7">1条评论</span>
+	</div>
+	<!--span class="badge thread-pageview">1</span-->
+</li>
+		</ul>
+		
+
+		<div class="pagination pagination-small">
+			<ul>
+			
+			<li class="active"><a href="?page=1">1</a> </li><li><a href="?page=2">2</a> </li><li><a href="?page=3">3</a> </li><li><a href="?page=4">4</a> </li><li><a href="?page=5">5</a> </li><li><a href="?page=6">6</a> </li><li><a href="?page=7">7</a> </li><li><a href="?page=8">8</a> </li><li><a href="?page=9">9</a> </li><li><a href="?page=10">10</a> </li>
+			<li><a href="?page=61">&gt;</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<aside class="span3 sidebar">
+		
+<section class="visitor box">
+	<div class="top">
+		<div class="pull-left"><a class="avatar avatar-50" rel="author" href="/user/204067" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/218ACA0DD0DDF00FAE3F7372E1D8C919/100" alt="舌尖上的牛氓"></a></div>
+		<h4 class="name">舌尖上的牛氓</h4>
+		<i class="icon-cog"></i><a href="http://duoshuo.com/settings/">设置</a>
+	</div>
+	<ul class="stats">
+		<li class="left"><span class="stats-number">0</span><span class="stats-desc">帖子</span></li>
+		<li class="left"><span class="stats-number">56</span><span class="stats-desc">文章</span></li>
+		<li class="center"><span class="stats-number">48</span><span class="stats-desc">评论</span></li>
+	</ul>
+	<div class="clearfix"></div>
+</section>
+
+
+		<section class="recent box">
+	<h4>最新帖子</h4>
+	<ul>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+		<li><a href="/threads/5268bb39f25d433f63000a2b">perl5不能正确安装的说!!!!!</a></li>
+	</ul>
+</section>
+		<section class="download-widget box">
+	<h4>CPAN</h4>
+	<ul>
+		<li><a href="/dedecms">AnyEvent</a></li>
+		<li><a href="/joomla">Mojolious</a></li>
+		<li><a href="/emlog">Moose</a></li>
+	</ul>
+</section>
+
+		<section class="feed box">
+	<h4>订阅</h4>
+	<div class="inner">
+		<a href="http://dev.duoshuo.com/feed">通过RSS订阅</a>
+	</div>
+</section>
+
+</aside>
+<script type="text/javascript">
+$('.pagination ul li').each(function(){
+	$(this).text().replace(/^\s+|\s+$/g, '') == '1' ? $(this).addClass('active') : '';
+})
+</script>
+
+</div></div>
+<footer>
+ 	<div class="sitemap">
+ 		<div class="span-9">
+ 			<h4>联系我们</h4>
+	 		<ul>
+	 			<li>QQ：2310391001(商务)<br>　　  1175762238(技术)<br>　　  2416330982(技术)</li>
+	 		</ul>
+	 	</div>
+	 	<div class="prepend-1 span-8">
+ 			<h4>了解更多</h4>
+	 		<ul>
+	 			<li><a href="http://duoshuo.com/#">连接微博，提升流量</a></li>
+	 			<li><a href="http://duoshuo.com/#">关注细节，真正好用</a></li>
+	 		</ul>
+	 	</div>
+	 	<div class="prepend-1 span-8">
+	 		<h4>插件</h4>
+	 		<ul>
+	 			<li><a href="http://wordpress.org/extend/plugins/duoshuo/" rel="nofollow">多说 for WordPress</a></li>
+	 		</ul>
+	 	</div>
+	 	<div class="prepend-1 span-8">
+	 		<h4>支持</h4>
+	 		<ul>
+	 			<li><a href="http://dev.duoshuo.com/">开发者中心</a></li>
+	 			<li><a href="http://dev.duoshuo.com/discussion">开发者讨论区</a></li>
+	 			<li><a href="http://dev.duoshuo.com/docs">安装帮助</a></li>
+	 			<li><a href="http://dev.duoshuo.com/docs">组件设置(小工具)</a></li>
+	 			<li><a href="http://dev.duoshuo.com/docs">API文档</a></li>
+	 		</ul>
+	 	</div>
+		<div class="prepend-1 span-7">
+			<h4>关注我们</h4>
+			<ul>
+		 		<li><a href="http://dev.duoshuo.com/blog">团队博客</a></li>
+				<li><a href="https://github.com/duoshuo" rel="nofollow" target="_blank">GitHub</a></li>
+		 		<li><iframe width="120" height="23" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="no" border="0" src="http://widget.weibo.com/relationship/followbutton.php?language=zh_cn&amp;width=120&amp;height=24&amp;uid=2468548203&amp;style=2&amp;btn=red&amp;dpc=1"></iframe></li>
+				<li><iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://widget.renren.com/plugin/followbutton?page_id=699168408&amp;color=0&amp;model=1" style="width:130px;height:24px;"></iframe></li>
+				<li><iframe id="previewmc" src="http://follow.v.t.qq.com/index.php?c=follow&amp;a=quick&amp;name=duo-shuo&amp;style=3&amp;t=1327999237149&amp;f=1" allowtransparency="true" style="margin:0 auto;" frameborder="0" height="23" scrolling="no" width="120"></iframe></li>
+			</ul>
+		</div>
+	</div>
+	<div class="license">
+		<p>© 2012 duoshuo.com 沪ICP备12005590号-1 京公网安备110108007992 <script src="http://s13.cnzz.com/stat.php?id=3733903&amp;web_id=3733903&amp;show=pic"></script><script src="http://c.cnzz.com/core.php?web_id=3733903&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=3733903" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></p>
+	</div>
+</footer>
+<script>
+$(function(){
+	$('.dropdown-toggle').dropdown();
+	
+	// b += "=";
+	// for (var d, c = document.cookie.split(";"), a = 0; a < c.length; a++) {
+	// 	for (d = c[a]; d.charAt(0) == " ";) d = d.substring(1, d.length);
+	// 	if (d.indexOf(b) === 0) return d.substring(b.length, d.length)
+	// }
+	// return null
+});
+</script>
+
+
+<embed id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd" type="application/thunder_download_plugin" height="0" width="0"><div id="ds-notify" style="top: 24px; right: 24px; display: none;"><div id="ds-reset"><a class="ds-logo" href="http://duoshuo.com/" target="_blank" title="多说"></a><ul class="ds-notify-unread"><li style="display:none;"><a data-type="unread-comments" href="javascript:void(0);">你有undefined条新回复</a></li><li style="display:none;"><a data-type="unread-notifications" href="javascript:void(0);">你有undefined条系统消息</a></li></ul></div></div></body></html>

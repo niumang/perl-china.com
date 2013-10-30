@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row">
+	<div class="span9">
+	<div class="content">
+	<ul class="breadcrumb">
+		<li>
+			<a href="/">perl-china</a> <span class="divider">&gt;</span>
+		</li>
+		<li class="active"> <a href="/discussion">讨论区</a></li>
+	</ul>
+	
+	<div class="inner">
+		<a class="btn btn-success" href="/discussion/new-thread">发帖</a>
+	</div>
+    <ul class="nav nav-pills categories-nav">
+    % for my $c( @$category ) {
+        <li>
+        <a href="<%= $c->{href} %>" title="<%= $c->{title} %>"><%= $c->{name} %></a>
+        </li>
+    % }
+    </ul>
+		
+    <ul class="thread-list">
+    % for my $thread( @$threads ){
+        <li>
+            <a class="avatar avatar-50" rel="author" href="/user/<%= $thread->{user_id} %>" target="_blank">
+                <img src="<%= $thread->{src} %>" alt="<%= $thread->{alt} %>"></a>
+            <h4 class="thread-title"><a href="<%= $thread->{thread_link} %>"><%= $thread->{title} %></a></h4>
+            <div class="thread-meta">
+            &nbsp;&nbsp;•&nbsp;
+            <a rel="author" href="<%= $thread->{user_link} %>" target="_blank"><%= $thread->{user}{name} %></a>&nbsp;&nbsp;•&nbsp;<time class="related-time" data-original-title="<%= $thread->{zh_time} %>" datetime="<%= $thread->{datetime} %>"><%= $thread->{from_time} %>分钟前</time>&nbsp;&nbsp;•&nbsp;<span class="ds-thread-count" data-thread-key="<%= $thread->{thread_key} %>"><%= $thread->{comment_count} %>条评论</span>
+            </div>
+        <!--span class="badge thread-pageview">1</span-->
+        </li>
+    </ul>
+
+
+    <div class="pagination pagination-small">
+        <ul>
+			<li class="active"><a href="?page=1">1</a> </li><li><a href="?page=2">2</a> </li><li><a href="?page=3">3</a> </li><li><a href="?page=4">4</a> </li><li><a href="?page=5">5</a> </li><li><a href="?page=6">6</a> </li><li><a href="?page=7">7</a> </li><li><a href="?page=8">8</a> </li><li><a href="?page=9">9</a> </li><li><a href="?page=10">10</a> </li>
+			<li><a href="?page=61">&gt;</a></li>
+        </ul>
+    </div>
+</div>
+
+

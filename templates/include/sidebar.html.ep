@@ -1,0 +1,16 @@
+<aside class="span3 sidebar">
+		
+<section class="visitor box">
+	<div class="top">
+		<div class="pull-left"><a class="avatar avatar-50" rel="author" href="/user/204067" target="_blank"><img src="http://q.qlogo.cn/qqapp/100229475/218ACA0DD0DDF00FAE3F7372E1D8C919/100" alt="舌尖上的牛氓"></a></div>
+		<h4 class="name">舌尖上的牛氓</h4>
+		<i class="icon-cog"></i><a href="http://duoshuo.com/settings/">设置</a>
+	</div>
+	<ul class="stats">
+		<li class="left"><span class="stats-number">0</span><span class="stats-desc">帖子</span></li>
+		<li class="left"><span class="stats-number">56</span><span class="stats-desc">文章</span></li>
+		<li class="center"><span class="stats-number">48</span><span class="stats-desc">评论</span></li>
+	</ul>
+	<div class="clearfix"></div>
+</section>
+

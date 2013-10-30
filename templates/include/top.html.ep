@@ -1,0 +1,76 @@
+<header id="header" class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+            <span class="brand">最淫荡的社区，没有之一</span>
+			<ul class="nav secondary-nav" style="float:right;">
+				<script language="javascript">
+					function g(formname)	{
+					if (formname.s[1].checked) {
+						formname.ct.value = "2097152";
+					}
+					else {
+						formname.ct.value = "0";
+					}
+					return true;
+					}
+				</script>
+				<form class="navbar-search pull-left" name="f1" onsubmit="return g(this)" action="http://www.baidu.com/baidu">
+					<input name="word" type="text" class="search-query" placeholder="百度站内搜索">
+					<a href="javascript:void(0)" onclick="document.f1[0].submit();"><i class="icon-search icon-white"></i></a>
+					<div class="hide">
+						<input name="tn" type="hidden" value="bds">
+						<input name="cl" type="hidden" value="3">
+						<input name="ct" type="hidden" value="2097152">
+						<input name="ie" type="hidden" value="utf-8">
+						<input name="si" type="hidden" value="duoshuo.com">
+						<input name="s" type="radio">
+						<input name="s" type="radio" checked="">
+					</div>
+				</form>
+				<li class="dropdown">
+					<a href="/blog">偶们的博客<!-- b class="caret" --></a>
+					<!--
+					<ul class="dropdown-menu">
+						<!-- li class="divider"></li -->
+						<!-- li><a href="http://duoshuo.com/register-site/">添加新站点</a></li>
+					</ul>
+					-->
+				</li>
+				<li class="dropdown">
+					<a href="/wiki">Wiki<b class="caret"></b></a>
+					<!-- <ul class="dropdown-menu">
+						<li><a href="/installation-help">分类一</a></li>
+						<li><a href="/feedback">分类二</a></li>
+						
+						<li class="divider"></li>
+						<li><a href="/threads/new">发帖</a></li>
+					</ul> -->
+				</li>
+				
+				<li class="dropdown">
+					<a href="/docs">perl文档<b class="caret"></b></a>
+					<!-- <ul class="dropdown-menu">
+						<li><a href="/api-docs">API接口</a></li>
+						<li><a href="/widgets-docs">挂件用法</a></li>
+						<li><a href="/appearance-docs">外观样式</a></li>
+						<li class="divider"></li>
+						<li><a href="http://duoshuo.com/register-site/">添加新站点</a></li>
+					</ul> -->
+				</li>
+				
+				
+				<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= $user_name %> </a>
+					<ul class="dropdown-menu">
+					 	<li><a href="/user/settings" class="pushstate-link">个人资料</a></li>
+					 	<li><a href="/user/message/notice" class="pushstate-link">通知提醒</a></li>
+						<li class="divider"></li>
+						<li><a href="/user/logout">登出</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+</header>
+
