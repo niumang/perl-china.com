@@ -1,5 +1,13 @@
 package PerlChina;
-use Mojo::Base 'Mojolicious';
+
+use YAML qw(LoadFile);
+use Momo;
+
+#use Mojo 'Mojolicious';
+extends 'Mojolicious';
+
+has config => 'sample';
+
 
 # This method will run once at server start
 sub startup {
@@ -203,7 +211,10 @@ sub startup {
   # Admin Welcome
   $admin_r->get( '/admin' )->to( controller => 'Admin::Welcome', action => 'index' );
 
-
 }
 
 1;
+
+my $app = PerlChina->new;
+
+

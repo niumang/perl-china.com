@@ -4,7 +4,6 @@ use 5.010;
 
 sub index {
   my ( $self ) = @_;
-
 }
 
 sub goodbye {
